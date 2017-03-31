@@ -12,7 +12,7 @@ gem 'rails', '~> 5.0.2'
 gem 'sqlite3'
 gem 'devise'
 gem 'activeadmin', github: 'activeadmin'
-gem 'paperclip'
+gem 'paperclip', git: "git://github.com/thoughtbot/paperclip.git"
 
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
